@@ -1,0 +1,55 @@
+HTML, body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+/* LAYOUT */
+.jumbotron{
+  height: 30%;
+  background-color: #6003c3;
+  border-radius: 0;
+}
+.box{
+  border: 10px solid #6003c3;
+  border-radius: 6px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10%;
+  box-shadow: 6px 6px 15px #999999;
+}
+.box1{
+  background-color: #fcff00;
+}
+.box2{
+  background-color: #57ffc9;
+}
+.box3{
+  background-color: #a5ff01;
+}
+
+/* TYPOGRAPHY */
+h1, h2, p{
+  font-family: "Open Sans Condensed", sans-serif;
+  text-align: center;
+}
+h1{
+  font-size: 4rem;
+  line-height: 3.5rem;
+  color: white;
+}
+h2{
+  font-size: 2rem;
+  color: #6003c3;
+  text-transform: uppercase;
+}
+p{
+  font-size: 8rem;
+  color: #6003c3;
+}
+/* MEDIA QUERIES */
+@media (min-width: 1200px){
+  .box{
+    width: 300px;
+    height: 300px;
+  }
+}
