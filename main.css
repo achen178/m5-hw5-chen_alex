@@ -26,6 +26,9 @@ HTML, body {
 .box3{
   background-color: #a5ff01;
 }
+.red{
+  background-color: #e61849;
+}
 
 /* TYPOGRAPHY */
 h1, h2, p{
@@ -45,6 +48,7 @@ h2{
 p{
   font-size: 8rem;
   color: #6003c3;
+  pointer-events: none;
 }
 /* MEDIA QUERIES */
 @media (min-width: 1200px){
